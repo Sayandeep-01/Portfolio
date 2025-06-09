@@ -1,0 +1,56 @@
+#sayan
+{
+   background: linear-gradient(
+  to right,
+  #0ABAB5,
+  #56DFCF,
+  #ADEED9,
+  #FFEDF3
+);
+
+
+
+    
+}
+#my_skills {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.heading1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  flex-wrap: wrap; /* Helps on small screens */
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  /* Styles for mobile devices */
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .container {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .nav {
+    display: none; /* Hide nav menu on mobile */
+  }
+}
+#footer
+{
+  background-color: beige;
+  margin-bottom: 0;
+}
